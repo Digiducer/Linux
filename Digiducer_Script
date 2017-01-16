@@ -1,0 +1,2 @@
+gcc -I/usr/include -L/usr/lib -o test main.c -ljack -lpthread -lportaudio libportaudio.a -lm -lrt -I/usr/include/alsa/pcm -g
+./test 2> file.log -f TEC -b 8192 -s 48000 -p 0 -n 3 -r 10
